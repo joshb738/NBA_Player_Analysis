@@ -26,5 +26,5 @@ Using machine learning to analyze player decline in the NBA. This analysis will 
 ## Database Integration
 
 - PostgreSQL (PG Admin) is the database we intend to use for this analysis.
-- Click [**here**]() for details regarding the **Database Integration** for this analysis.
+- Click [**here**](Database_Integration/database_integration.md) for details regarding the **Database Integration** for this analysis.
 - [ERD Diagram](NBA_Analysis_ERD.png)
