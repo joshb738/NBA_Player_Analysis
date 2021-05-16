@@ -3,9 +3,9 @@
 ## Project Overview
 
 ## Communication Protocols
-- Slack: Team discussions, questions, suggestisons & resource sharing.
-- Google Meet: Team meetings.
-- [Trello](https://trello.com/b/bpUG9Aoh/final-project-nba): Work organization, scheduling
+- **Slack**: Team discussions, questions, suggestisons & resource sharing.
+- **Google Meet**: Team meetings, discussions
+- **[Trello](https://trello.com/b/bpUG9Aoh/final-project-nba)**: Work organization, scheduling
 
 ### Dataset
 
