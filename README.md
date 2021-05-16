@@ -21,8 +21,8 @@ Using machine learning to analyze player decline in the NBA. This analysis will 
 
 ## Machine Learning Model
 
-- Click [**here**](ML/README.md) for details regarding the Machine Learning model for this analysis.
+- Click [**here**](ML/README.md) for details regarding the **Machine Learning model** for this analysis.
 
 ## Database Integration 
-- Database that we will use is PostgreSQL (PG Admin)
-
+- Click [**here**]() for details regarding the **Database Integration** for this analysis.
+- [ERD Diagram](NBA_Analysis_ERD.png)
