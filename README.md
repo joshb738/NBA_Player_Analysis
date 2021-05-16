@@ -11,7 +11,7 @@ Using machine learning to analyze player decline in the NBA. This analysis will 
 
 - [NBA Python API](https://pypi.org/project/nba-api/)
 - [Kaggle Player Data](https://www.kaggle.com/drgilermo/nba-players-stats?select=player_data.csv)
-  - A [sample](Data Sample.xlsx) has been drafted in the Resources folder.
+  - A sample (Data Sample.xlsx) has been drafted in the Resources folder.
 
 ## Communication Protocols
 
