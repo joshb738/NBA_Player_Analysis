@@ -10,7 +10,7 @@
 
 - [NBA Python API](https://pypi.org/project/nba-api/)
 - [Kaggle Player Data](https://www.kaggle.com/drgilermo/nba-players-stats?select=player_data.csv)
-  - A [sample]((ML/README.md) has been drafted in the Resources folder.
+  - A [sample](ML/README.md) has been drafted in the Resources folder.
 
 ## Communication Protocols
 
