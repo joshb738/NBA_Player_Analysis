@@ -42,6 +42,11 @@ The Cluster has the following traits:
 - High Post and Perimeter Defended Field Goals/game
 - Majority of Cluster 5’s offense come from Spot up shots
 
+Refer to:
+
+- The file: Model.drawio
+- Model 2: https://towardsdatascience.com/redefining-nba-player-classifications-using-clustering-36a348fa54a8
+
 ### References
 
 - NBA.com - https://pypi.org/project/nba-api/#description
