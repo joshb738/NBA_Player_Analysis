@@ -10,7 +10,7 @@
 
 - [NBA Python API](https://pypi.org/project/nba-api/)
 - [Kaggle Player Data](https://www.kaggle.com/drgilermo/nba-players-stats?select=player_data.csv)
-  - A sample has been drafted in the Resources folder.
+  - A [sample]((ML/README.md) has been drafted in the Resources folder.
 
 ## Communication Protocols
 
@@ -18,8 +18,8 @@
 - **Google Meet**: Team meetings, discussions
 - **[Trello](https://trello.com/b/bpUG9Aoh/final-project-nba)**: Work organization, scheduling
 
-## [Machine Learning Model](ML/README.md)
+## Machine Learning Model
 
-- Click [**here**] for details regarding the Machine Learning model for thi analysis.
+- Click [**here**](ML/README.md) for details regarding the Machine Learning model for thi analysis.
 
 ## Database Integration 
