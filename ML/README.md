@@ -28,6 +28,20 @@ We will use a voting classifier. It aggregate a logistic regression, adaptive bo
 
 - Filter to use the data from 2003 to 2018
 
+- For example, our dataset will include the year, is it his first year, salray, position (e.g. 3B) then each cluster will have parameters for each player.
+
+E.g.
+
+##### 3 and D Players (3 Point and Defensive Players)
+
+The Cluster has the following traits:
+
+- High 3 Point percentage
+- High Steals/game
+- High Perimeter Field Goals/game
+- High Post and Perimeter Defended Field Goals/game
+- Majority of Cluster 5’s offense come from Spot up shots
+
 ### References
 
 - NBA.com - https://pypi.org/project/nba-api/#description
