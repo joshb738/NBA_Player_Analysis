@@ -1,8 +1,8 @@
 ## Model
 
-### Goal
+### Primary Objectif
 
-Predicting player regression based on archtype in NBA
+Predicting player regression based on archtype in NBA. We will feed the dataset into PCA.
 
 #### Which model did you choose and why?
 
@@ -18,11 +18,11 @@ By looking at what was done with a great success in other sports. We determine t
 
 #### What is the model's accuracy?
 
-From the two references below we should have between 75% nad 85%
+From the two references at the bottom of this file, we should have an accuracy between 75% and 85%
 
 #### How does this model work?
 
-We will use a voting classifier. It aggregate a logistic regression, adaptive boosting, gradient boosting, random forest, and extra trees.
+We will use a "voting classifier". It aggregate a logistic regression, adaptive boosting, gradient boosting, random forest, and extra trees.
 
 - The database in the schema (NBA_Analysis_ERD.png)
 
