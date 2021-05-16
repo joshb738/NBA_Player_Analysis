@@ -1,6 +1,12 @@
 # NBA_Player_Analysis
 
+
 ## Project Overview
+
+## Communication Protocols
+- Slack: Team discussions, questions, suggestisons & resource sharing.
+- Google Meet: Team meetings.
+- Trello: Work organization, scheduling
 
 ### Dataset
 
@@ -21,3 +27,4 @@ Outputs label(s) for input data
 
 Trello
 https://trello.com/b/bpUG9Aoh/final-project-nba
+
