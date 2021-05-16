@@ -12,6 +12,6 @@
 - Lastly, we need to remove the duplicates from the team column, for when a player played on multiple teams in a year and keep the Total.
 - I.e., if a player plays on 2 teams, they would be shown 3 times, once with team 1, once with team 2 and once with Total, so we keep the total
 
-## Post Cleaning
+### Post Cleaning
 
 - We will feed the dataset into PCA
