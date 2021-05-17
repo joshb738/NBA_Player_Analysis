@@ -5,7 +5,7 @@
 Using machine learning to analyze player decline in the NBA. This analysis will aim to provide insight on the following questions:
 
 1. Based on the player archtype, when will the athlete begin to experience a decline in performance?
-2. Once the player has begun to decline, will an adjusting the athletes playstyle help avoid regression?
+2. Once the player has begun to decline, will adjusting the athletes playstyle help avoid regression?
 
 ## Dataset
 
