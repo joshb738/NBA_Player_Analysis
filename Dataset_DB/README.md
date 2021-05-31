@@ -1,6 +1,6 @@
 ## Database Integration
 
-- Database that we will use is PostgreSQL (PG Admin)
+- The database that we have chosen to use for this analysis is SQLite using SQLAlchemy.
 
 ### Cleaning the Data Set
 
