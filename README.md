@@ -21,7 +21,7 @@ Using machine learning to analyze player decline in the NBA. This analysis will 
 
 ## Machine Learning Model
 
-- Click [**here**](Machine Learning/README.md) for details regarding the **Machine Learning model** for this analysis.
+- Click [**here**](Machine_Learning/README.md) for details regarding the **Machine Learning model** for this analysis.
 
 ## Database Integration
 
