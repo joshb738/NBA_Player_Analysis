@@ -1,8 +1,4 @@
-## Database Integration
-
-- This project will be using SQLite with SQLAlchemy for the database integration.
-
-### Cleaning the Data Set
+### Data Cleaning & Preprocessing
 
 - From Kaggle data set (Season Stats, Players, Player Data) the main one we will be using is Season Stats
 - First, we drop unwanted columns like Games Started and Position among others from Season Stats
