@@ -1,6 +1,6 @@
 ## Model
 
-### Primary Objectif
+### Primary Objective
 
 Predicting player regression based on archtype in NBA. We will feed the dataset into PCA.
 
