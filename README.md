@@ -30,4 +30,6 @@ Using machine learning to analyze player decline in the NBA. This analysis will 
 - [ERD Diagram](NBA_Analysis_ERD.png)
 
 ## Data Visualization 
-- Using Tableau as the visualization tool.
+
+- This project will be using Tableau for  visualizations & dashboards.
+- Click [**here*](Visualisation/NBA Analysis.pptx) for details.
