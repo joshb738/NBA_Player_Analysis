@@ -11,7 +11,7 @@ Using machine learning to analyze player decline in the NBA. This analysis will 
 
 - [NBA Python API](https://pypi.org/project/nba-api/)
 - [Kaggle Player Data](https://www.kaggle.com/drgilermo/nba-players-stats?select=player_data.csv)
-  - A data [sample](ETL/Data Processing/SAMPLE_DATA.xlsx) has been drafted. 
+  - A data sample has been drafted. (Data Sample.xlsx)
 
 ## Communication Protocols
 
@@ -21,13 +21,13 @@ Using machine learning to analyze player decline in the NBA. This analysis will 
 
 ## Machine Learning Model
 
-- Click [**here**](Machine_Learning/README.md) for details regarding the **Machine Learning model** for this analysis.
+- Click [**here**](ML/README.md) for details regarding the **Machine Learning model** for this analysis.
 
 ## Database Integration
 
-- The database that we have chosen to use for this analysis is SQLite using SQLAlchemy.
-- Click [**here**](Database/README.md) for details regarding the **Database Integration** for this analysis.
-- [ERD Diagram](Database/NBA_Analysis_ERD.png)
+- PostgreSQL (PG Admin) is the database we intend to use for this analysis.
+- Click [**here**](Database_Integration/database_integration.md) for details regarding the **Database Integration** for this analysis.
+- [ERD Diagram](NBA_Analysis_ERD.png)
 
 ## Data Visualization 
 - Using Tableau as the visualization tool.
