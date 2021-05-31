@@ -27,9 +27,9 @@ Using machine learning to analyze player decline in the NBA. This analysis will 
 
 - This project will be using SQLite with SQLAlchemy for the database integration.
 - Click [**here**](Database/SQL_Database.ipynb) for details regarding the **Database Integration** for this analysis.
-- [ERD Diagram](NBA_Analysis_ERD.png)
+- [ERD Diagram](Database/NBA_Analysis_ERD.png)
 
 ## Data Visualization 
 
 - This project will be using Tableau for  visualizations & dashboards.
-- Click [**here*](Visulization/NBA Analysis.pptx) for details.
+- Click [**here**](Visulization/NBA Analysis.pptx) for details.
