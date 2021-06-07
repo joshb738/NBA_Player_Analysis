@@ -2,14 +2,15 @@
 
 ## Project Overview
 
-Using machine learning to analyze player decline in the NBA. This analysis will aim to provide insight on the following questions:
+Using unsupervised  machine learning to analyze player decline in the NBA based on the player archytype.
+This analysis will provide assistance to to NBA teams for roster building and player adjustments.
 
-1. Based on the player archtype, when will the athlete begin to experience a decline in performance?
-2. Once the player has begun to decline, will adjusting the athletes playstyle help avoid regression?
+The analysis will aim to provide insight on the following questions:
+1. Determining the new player archytpe in the modern day position list.
+2. Will adjusting the athletes playstyle help improve performance.
 
 ## Dataset
 
-- [NBA Python API](https://pypi.org/project/nba-api/)
 - [Kaggle Player Data](https://www.kaggle.com/drgilermo/nba-players-stats?select=player_data.csv)
   - A data [sample](ETL/Data/sample_data.xlsx) has been drafted. 
 
