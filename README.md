@@ -2,8 +2,8 @@
 
 ## Project Overview
 
-Using unsupervised  machine learning to analyze player decline in the NBA based on the player archytype.
-This analysis will provide assistance to to NBA teams for roster building and player adjustments.
+Using unsupervised  machine learning to analyze player decline in the NBA based on the player archetype.
+This analysis will provide assistance to NBA teams for roster building and player adjustments.
 
 The analysis will aim to provide insight on the following questions:
 1. Determining the new player archytpe in the modern day position list.
