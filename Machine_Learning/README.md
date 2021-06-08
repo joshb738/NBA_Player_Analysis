@@ -1,5 +1,10 @@
 ## Model
 
+This section was completed by:
+
+- Josh B.
+- Pierre-Olivier B.
+
 ### Primary Objective
 
 Predicting player regression based on archtype in NBA. We will feed the dataset into PCA.
@@ -10,15 +15,23 @@ By looking at what was done with a great success in other sports. We determine t
 
 #### How are you training your model?
 
-- First cluster players using data into archtype each year
-- Cluster ONCE then assign each year based on years into career
-- Look at VORP to see when if they regress
-- VORP is value over replacement player basically how good a player was that season with a -2.0 being a replacement level player (really bad player)
-- Also look at if they change player type do they still regress
+##### Clustering
+
+- A general cluster that have all the players and years to determine the archtype
+- generate a KMeans (we conclude at 9 cluster would be a valid result by looking at the chart), the variable is 0.89 with 9 clusters and the deriatives confirm this is the most useful threshold.
+- The model only works with complete dataset; We dropped the "na"
+- Vizualise all clusters to confirm if our hypothesis seems correct that players have archetypes.
+- By using, 'cluster_centers\_', 'components\_' and vectorize and determined the content of each cluster. This is be use to conclude on if our clusters are truly different.
+
+##### Timeseries
+
+- We uses the same cluster that we previously used.
+- Compared the T0 to T1 and confirm if there is a variation
+- Then we created a DataFrame for those that improved and those who regressed.
 
 #### What is the model's accuracy?
 
-From the two references at the bottom of this file, we should have an accuracy between 75% and 85%
+From the two references at the bottom of this file, we should have an accuracy between 75% and 90%. For the timeseries, we stopped at 0.9148 which was 10 clusters to explain our model. This means we would have to find 10 styles of playing that result to a high or low VORP.
 
 #### How does this model work?
 
