@@ -33,4 +33,8 @@ The analysis will aim to provide insight on the following questions:
 ## Data Visualization & Dashboard
 
 - This project will be using Tableau for  visualizations & dashboards.
-- Click [**here**](Visulization/NBA_Analysis.pptx) for details.
+- Click [https://public.tableau.com/app/profile/karanpreet8221/viz/NBAAnalysis_16223090479000/VORPbyPlayer]
+        [https://public.tableau.com/app/profile/karanpreet8221/viz/FinalResults_16225849830960/Finalresults]
+
+
+
