@@ -16,11 +16,11 @@ Using [Unsupervised Machine Learning](Machine_Learning/NBA_PCA.ipynb) to analyze
 
 ##### Second Deriv to narrow down K value.
 
-<img src="Machine_Learning/Resources/second_deriv.png"/>
+<img src="Resources/second_deriv.png"/>
 
 - Vizualising clusters to determine player archetypes
 
-<img src="Machine_Learning/Resources/vorp_clusters.png"/>
+<img src="Resources/vorp_clusters.png"/>
 
 - By using, 'cluster_centers\_', 'components\_' and vectorize the player archetype in each cluster. This is be use to conclude on if our clusters are truly different.
 
@@ -28,11 +28,11 @@ Using [Unsupervised Machine Learning](Machine_Learning/NBA_PCA.ipynb) to analyze
 
 **PCA Playing Styles**
 
-<img src="Machine_Learning/Resources/cluster_player_types.PNG"/>
+<img src="Resources/cluster_player_types.PNG"/>
 
 **Cluster Player Types**
 
-<img src="Machine_Learning/Resources/cluster_player_types.png"/>
+<img src="Resources/cluster_player_types.png"/>
 
 ##### Timeseries
 `
