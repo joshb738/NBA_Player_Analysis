@@ -2,7 +2,7 @@
 
 ### Primary Objective
 
-Using [Unsupervised Machine Learning](Machine_Learning/NBA_PCA.ipynb) to analyze trends of athletes regression in NBA based on player archetype.
+Using [Unsupervised Machine Learning](NBA_PCA.ipynb) to analyze trends of athletes regression in NBA based on player archetype.
 
 #### Principal Component Analysis
 
