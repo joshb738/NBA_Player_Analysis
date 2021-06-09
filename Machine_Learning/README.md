@@ -28,7 +28,7 @@ Using [Unsupervised Machine Learning](Machine_Learning/NBA_PCA.ipynb) to analyze
 
 **PCA Playing Styles**
 
-<img src="Machine_Learning/Resources/pca_playing_styles.png"/>
+<img src="Machine_Learning/Resources/cluster_player_types.PNG"/>
 
 **Cluster Player Types**
 
