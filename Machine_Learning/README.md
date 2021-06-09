@@ -1,19 +1,38 @@
-## Model
+## Unsupervised Machine Learning for NBA Stats
 
 ### Primary Objective
 
-Using Unsupervised Machine Learning to analyze trends of athletes regression in NBA based on player archetype.
+Using [Unsupervised Machine Learning](Machine_Learning/NBA_PCA.ipynb) to analyze trends of athletes regression in NBA based on player archetype.
 
-##### Principal Component Analysis
+#### Principal Component Analysis
 
+- Calculated variances to determine that **10** principal components is the optimal number for this model. 
 
-##### Clustering
+#### Clustering using K-Means
 
-- A general cluster that have all the players and years to determine the archtype
-- generate a KMeans (we conclude at 9 cluster would be a valid result by looking at the chart), the variable is 0.89 with 9 clusters and the deriatives confirm this is the most useful threshold.
-- The model only works with complete dataset; We dropped the "na"
-- Vizualise all clusters to confirm if our hypothesis seems correct that players have archetypes.
-- By using, 'cluster_centers\_', 'components\_' and vectorize and determined the content of each cluster. This is be use to conclude on if our clusters are truly different.
+- Using KMeans and in depth examination of the second derivative we conclude that the optimal number of clusters for this model is **9.**
+
+<img src="Machine_Learning/Resources/kmeans.png"/>
+
+##### Second Deriv to narrow down K value.
+
+<img src="Machine_Learning/Resources/second_deriv.png"/>
+
+- Vizualising clusters to determine player archetypes
+
+<img src="Machine_Learning/Resources/vorp_clusters.png"/>
+
+- By using, 'cluster_centers\_', 'components\_' and vectorize the player archetype in each cluster. This is be use to conclude on if our clusters are truly different.
+
+#### Interpreting Clusters
+
+**PCA Playing Styles**
+
+<img src="Machine_Learning/Resources/pca_playing_styles.png"/>
+
+**Cluster Player Types**
+
+<img src="Machine_Learning/Resources/cluster_player_types.png"/>
 
 ##### Timeseries
 `
