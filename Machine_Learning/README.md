@@ -24,7 +24,7 @@ Using [Unsupervised Machine Learning](Machine_Learning/NBA_PCA.ipynb) to analyze
 
 - By using, 'cluster_centers\_', 'components\_' and vectorize the player archetype in each cluster. This is be use to conclude on if our clusters are truly different.
 
-#### Interpreting Clusters
+### Interpreting Clusters
 
 **PCA Playing Styles**
 

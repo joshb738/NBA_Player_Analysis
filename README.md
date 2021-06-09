@@ -22,7 +22,8 @@ The analysis will aim to provide insight on the following questions:
 
 ## Machine Learning Model
 
-- Click [**here**](Machine_Learning/NBA_PCA.ipynb) for details regarding the **Machine Learning model** for this analysis.
+- Click [**here**](Machine_Learning/README.md) for details regarding the **Machine Learning model** for this analysis.
+- Click [**here**](Machine_Learning/NBA_PCA.ipynb) for Machine learning code details.
 
 ## Database Integration
 
@@ -34,9 +35,8 @@ The analysis will aim to provide insight on the following questions:
 
 - This project will be using Tableau for  visualizations & dashboards.
 - Click [**here**](Visualization/NBA_PLAYER_ANALYSIS.pptx) for details on ppt.
-- Click on links below to access Tableau visualizations-
-[https://public.tableau.com/app/profile/karanpreet8221/viz/NBAAnalysis_16223090479000/VORPbyPlayer]
-[https://public.tableau.com/app/profile/karanpreet8221/viz/FinalResults_16225849830960/Finalresults]
+- Click [**here**](https://public.tableau.com/app/profile/syed.ali.akbar/viz/NBAAnalysis_16232021658490/VORPbyAgebyPlayers) to access Tableau visualizations
+
 
 
 
