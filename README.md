@@ -35,7 +35,7 @@ The analysis will aim to provide insight on the following questions:
 
 - This project will be using Tableau for  visualizations & dashboards.
 - Click [**here**](Visualization/NBA_PLAYER_ANALYSIS.pptx) for details on ppt.
-- Click [**here**](https://public.tableau.com/app/profile/syed.ali.akbar/viz/NBAAnalysis_16232021658490/VORPbyAgebyPlayers) to access Tableau visualizations
+- Click [**here**](https://public.tableau.com/app/profile/syed.ali.akbar/viz/NBAAnalysis_16232021658490/VORPbyPlayersandAge) to access Tableau visualizations
 
 
 
