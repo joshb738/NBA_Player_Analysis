@@ -12,7 +12,7 @@ Using [Unsupervised Machine Learning](Machine_Learning/NBA_PCA.ipynb) to analyze
 
 - Using KMeans and in depth examination of the second derivative we conclude that the optimal number of clusters for this model is **9.**
 
-<img src="Machine_Learning/Resources/kmeans.png"/>
+<img src="Resources/kmeans.png"/>
 
 ##### Second Deriv to narrow down K value.
 
