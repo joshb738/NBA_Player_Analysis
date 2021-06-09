@@ -34,8 +34,8 @@ Using [Unsupervised Machine Learning](Machine_Learning/NBA_PCA.ipynb) to analyze
 
 <img src="Resources/cluster_player_types.png"/>
 
-##### Timeseries
-`
+#### Timeseries
+
 - We uses the same cluster that we previously used.
 - Compared the T0 to T1 and confirm if there is a variation
 - Then we created a DataFrame for those that improved and those who regressed.
