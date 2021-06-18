@@ -15,8 +15,9 @@ from app.server.models.nba import (
 router = APIRouter()
 
 
-@router.post("/add_dataset", response_description="Dataset data added into the database")
-async def add_dataset(player: PlayerSchema = Body(...)):
-    dataset = jsonable_encoder(dataset)
-    new_dataset = await add_player(dataset)
-    return ResponseModel(new_dataset, "Dataset added successfully.")
+@router.get("/add_dataset", response_description="Dataset data added into the database")
+async def add_stream_data():
+    # stream = jsonable_encoder(stream)
+    # Call add_dataset
+    confirm = await add_dataset()
+    return {"message": "Dataset is alive"}

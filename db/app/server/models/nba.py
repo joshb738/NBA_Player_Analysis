@@ -56,7 +56,7 @@ class PlayerSchema(BaseModel):
             "example": {
                 "Year": "John Doe",
                 "Player": "jdoe@x.edu.ng",
-                "Age": 2,
+                "Age": 22,
             }
         }
 

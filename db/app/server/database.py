@@ -1,16 +1,21 @@
+# Dependencies
 import motor.motor_asyncio
 from bson.objectid import ObjectId
+import pandas as pd
 
+# Init Mongo
 MONGO_DETAILS = "mongodb://localhost:27017"
 
 client = motor.motor_asyncio.AsyncIOMotorClient(MONGO_DETAILS)
 
+# Database Name
 database = client.players
 
+# Collection Name
 players_collection = database.get_collection("nba_collection")
 
 
-# Helpers
+# Helpers - Response JSON content from server
 def player_helper(player) -> dict:
     return {
         "id": str(player["_id"]),
@@ -19,6 +24,7 @@ def player_helper(player) -> dict:
         "Age": player["Age"]
     }
 
+### RESPONSE ###
 # Retrieve all players present in the database
 
 
@@ -39,8 +45,17 @@ async def retrieve_player(id: str) -> dict:
 # Add a new players into to the database
 
 
-async def add_dataset(student_data: dict) -> dict:
+async def add_dataset():
     # Push all dataset to MongoDB
-    player = await players_collection.insert_one(student_data)
-    new_player = await players_collection.find_one({"_id": player.inserted_id})
-    return player_helper(new_player)
+    # player = await players_collection.insert_one(student_data)
+    # new_player = await players_collection.find_one({"_id": player.inserted_id})
+    # return player_helper(new_player)
+
+    # CSV Reader Helper
+    def csv_to_json(filename, header=None):
+        pd.read_csv(filename, header=header)
+        return
+    # Push to Mongo
+    #player = 1
+    players_collection.insert_one(csv_to_json('datasets/finalized_data.csv'))
+    return

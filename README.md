@@ -31,7 +31,7 @@ The analysis will aim to provide insight on the following questions:
 
 > pip install -r requirements.txt
 
-### Start backend
+### FastAPI - Backend
 
 > cd db && python app/main.py
 
