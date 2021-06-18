@@ -1,4 +1,4 @@
-# NBA_Player_Analysis
+# Clustering on NBA League From 2003 to 2018
 
 ## Project Overview
 
@@ -25,11 +25,11 @@ The analysis will aim to provide insight on the following questions:
 
 ### Virtual Environment
 
-> python3 -m venv env
+> cd db && python3 -m venv env
 
 > source env/bin/activate
 
-> cd db && pip install -r requirements.txt
+> pip install -r requirements.txt
 
 ### Start backend
 
