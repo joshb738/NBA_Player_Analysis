@@ -52,10 +52,11 @@ async def add_dataset():
     # return player_helper(new_player)
 
     # CSV Reader Helper
-    def csv_to_json(filename, header=None):
-        pd.read_csv(filename, header=header)
-        return
+    def csv_to_json(filename, header=0):
+        data = pd.read_csv(filename)
+        return data.to_dict('records')
+
     # Push to Mongo
     #player = 1
-    players_collection.insert_one(csv_to_json('datasets/finalized_data.csv'))
+    players_collection.insert_many(csv_to_json('datasets/finalized_data.csv'))
     return
