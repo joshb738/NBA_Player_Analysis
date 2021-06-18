@@ -35,6 +35,16 @@ The analysis will aim to provide insight on the following questions:
 
 > cd db && python app/main.py
 
+#### MongoDB
+
+> mongo
+
+> show dbs
+
+> use players
+
+> db.nba_collection.find()
+
 ### Database Integration
 
 - This project will be using SQLite with SQLAlchemy for the database integration.
