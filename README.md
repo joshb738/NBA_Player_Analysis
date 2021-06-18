@@ -23,6 +23,18 @@ The analysis will aim to provide insight on the following questions:
 
 ## Application Workflow
 
+### Virtual Environment
+
+> python3 -m venv env
+
+> source env/bin/activate
+
+> cd db && pip install -r requirements.txt
+
+### Start backend
+
+> cd db && python app/main.py
+
 ### Database Integration
 
 - This project will be using SQLite with SQLAlchemy for the database integration.
